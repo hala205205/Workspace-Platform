@@ -212,42 +212,6 @@ http://localhost:3000
 
 ---
 
-## Ignore These Files
-
-```text
-.env
-.venv/
-__pycache__/
-.pytest_cache/
-*.db
-uploads/
-frontend/node_modules/
-frontend/dist/
-frontend/*.tsbuildinfo
-```
-
----
-
-## Upload These Files
-
-```text
-app/
-alembic/
-frontend/
-tests/
-.env.example
-.gitignore
-README.md
-requirements.txt
-alembic.ini
-docker-compose.yml
-Dockerfile
-pytest.ini
-REQUIREMENTS_COVERAGE.md
-```
-
----
-
 ## Notes
 
 * `/` may show 404 (normal)
